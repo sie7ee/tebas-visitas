@@ -1,0 +1,56 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'url' ]
+2 info using npm@1.2.2
+3 info using node@v0.8.18
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json C:\xampp\htdocs\thomas\js\node\package.json
+6 verbose read json C:\xampp\htdocs\thomas\js\node\node_modules\express\package.json
+7 verbose read json C:\xampp\htdocs\thomas\js\node\node_modules\socket.io\package.json
+8 verbose read json C:\xampp\htdocs\thomas\js\node\package.json
+9 verbose cache add [ 'url', null ]
+10 verbose cache add name=undefined spec="url" args=["url",null]
+11 verbose parsed url { pathname: 'url', path: 'url', href: 'url' }
+12 silly lockFile 81736358-url url
+13 verbose lock url C:\Users\GussJQ\AppData\Roaming\npm-cache\81736358-url.lock
+14 silly lockFile 81736358-url url
+15 verbose addNamed [ 'url', '' ]
+16 verbose addNamed [ null, '' ]
+17 silly lockFile b781997a-url url@
+18 verbose lock url@ C:\Users\GussJQ\AppData\Roaming\npm-cache\b781997a-url.lock
+19 silly addNameRange { name: 'url', range: '', hasData: false }
+20 verbose url raw url
+21 verbose url resolving [ 'https://registry.npmjs.org/', './url' ]
+22 verbose url resolved https://registry.npmjs.org/url
+23 info trying registry request attempt 1 at 22:39:21
+24 http GET https://registry.npmjs.org/url
+25 http 404 https://registry.npmjs.org/url
+26 verbose bad json Host not found: registry.npmjs.org
+27 error registry error parsing json
+28 silly registry.get cb [ 404, { 'content-length': '34' } ]
+29 silly lockFile b781997a-url url@
+30 error SyntaxError: Unexpected token H
+30 error Host not found: registry.npmjs.org
+30 error     at Object.parse (native)
+30 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:226:23)
+30 error     at Request.init.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\main.js:120:22)
+30 error     at Request.EventEmitter.emit (events.js:99:17)
+30 error     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\main.js:648:16)
+30 error     at Request.EventEmitter.emit (events.js:126:20)
+30 error     at IncomingMessage.Request.start.self.req.self.httpModule.request.buffer (C:\Program Files\nodejs\node_modules\npm\node_modules\request\main.js:610:14)
+30 error     at IncomingMessage.EventEmitter.emit (events.js:126:20)
+30 error     at IncomingMessage._emitEnd (http.js:366:10)
+30 error     at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)
+31 error If you need help, you may report this log at:
+31 error     <http://github.com/isaacs/npm/issues>
+31 error or email it to:
+31 error     <npm-@googlegroups.com>
+32 error System Windows_NT 6.1.7601
+33 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "url"
+34 error cwd C:\xampp\htdocs\thomas\js\node
+35 error node -v v0.8.18
+36 error npm -v 1.2.2
+37 error type unexpected_token
+38 verbose exit [ 1, true ]
